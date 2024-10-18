@@ -1,0 +1,112 @@
+/* src/components/Header.css */
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  padding: 10px 20px;
+  border-bottom: 1px solid #d0b49f;
+  box-sizing: border-box;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.logo a {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #5c3b1e;
+  text-decoration: none;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  width: 400px;
+}
+
+.search-bar input {
+  border: none;
+  padding: 10px;
+  width: 100%;
+  outline: none;
+}
+
+.search-button {
+  background-color: #8b6f47;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.header-icons {
+  display: flex;
+  gap: 30px; /* Khoảng cách giữa các icon */
+  align-items: center;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #5c3b1e;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.icon-item span {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.icon-item:hover {
+  color: #ff6f61;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #ff3b2f;
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f1e3d3;
+  padding: 15px 0;
+  border-top: 1px solid #f1e3d3;
+}
+
+.bottom-row a {
+  text-decoration: none;
+  color: #4a3825;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.bottom-row a:hover {
+  color: #ff6f61;
+}
